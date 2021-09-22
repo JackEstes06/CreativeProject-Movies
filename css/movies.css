@@ -1,0 +1,42 @@
+.top-ten-item {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f6f6f5;
+}
+.top-ten-item img{
+    width: 25%;
+    flex: 1;
+
+}
+.top-ten-item a{
+    flex:4;
+    text-align: center;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
+.top-ten-item {
+      font-size: 1.2em;
+      margin: 30px 40px;
+}
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .top-ten-item {
+      font-size: 2.5em;
+      margin: 30px 75px;
+}
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .top-ten-item {
+      font-size: 4.5em;
+      margin: 30px 100px;
+}
+}
