@@ -2,8 +2,9 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    font-family: Roboto Condensed,RobotoCondensed-Bold,Roboto,Arial,Helvetica,sans-serif;
 
-    background-color: #f6f6f5;
+    background-color: #dbdbc8;
 }
 .top-ten-item img{
     width: 25%;
@@ -37,6 +38,6 @@
 @media only screen and (min-width: 961px) {
     .top-ten-item {
       font-size: 4.5em;
-      margin: 30px 100px;
+      margin: 50px 100px;
 }
 }
