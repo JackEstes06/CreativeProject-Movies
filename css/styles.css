@@ -22,7 +22,7 @@
   align-items:center;
 }
 .home-pics img {
- width: 100%;
+  width: 100%;
 }
 .home-description {
   display:flex;
@@ -51,6 +51,5 @@
 @media only screen and (min-width: 961px) {
   .home-description {
     font-size: 1.25em;
-}
-
+  }
 }
