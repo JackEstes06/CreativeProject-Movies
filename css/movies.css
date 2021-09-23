@@ -6,10 +6,10 @@
 
     background-color: #dbdbc8;
 }
+
 .top-ten-item img{
     width: 25%;
     flex: 1;
-
 }
 .top-ten-item a{
     flex:4;
@@ -21,8 +21,7 @@
   .top-ten-item {
       font-size: 1.2em;
       margin: 30px 40px;
-    }
-
+  }
 }
 
 /* Tablet Styles */
@@ -30,14 +29,13 @@
   .top-ten-item {
       font-size: 2.5em;
       margin: 30px 75px;
-    }
-
+  }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-    .top-ten-item {
-      font-size: 4.5em;
-      margin: 50px 100px;
-    }
+  .top-ten-item {
+    font-size: 4.5em;
+    margin: 50px 100px;
+  }
 }
