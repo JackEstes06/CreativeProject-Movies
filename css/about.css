@@ -28,11 +28,23 @@
   width: 100%;
   border: 5px solid #fff;
 }
-
 .about-jack-items, .about-michael-items {
   padding: 5px;
 }
 
+.about-container-drawing {
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color: #cdcdcd;
+  border: 30px solid #fff;
+}
+.about-container-drawing-img img {
+  width: 100%;
+}
 
 /* Mobile Styles */
 @media only screen and (max-width: 450px) {
