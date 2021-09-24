@@ -36,11 +36,6 @@
 
 /* Mobile Styles */
 @media only screen and (max-width: 450px) {
-  .top-ten-item {
-      font-size: 1.2em;
-      margin: 30px 40px;
-  }
-
   .about-jack, .about-michael {
     display: flex;
     justify-content: space-around;
@@ -52,24 +47,11 @@
 
 /* Tablet Styles */
 @media only screen and (min-width: 451px) and (max-width: 960px) {
-  .top-ten-item {
-      font-size: 2.5em;
-      margin: 30px 75px;
-  }
-
   .about-jack, .about-michael {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     width: 100%;
     background-color: #cdcdcd;
-  }
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-  .top-ten-item {
-    font-size: 4.5em;
-    margin: 50px 100px;
   }
 }
